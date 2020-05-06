@@ -1,0 +1,31 @@
+/* Generali */
+body {
+  background-color: red;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ms_list_no_margin {
+  margin: 0;
+}
+
+/* HEADER */
+header .primary_nav {
+  background-color: white;
+
+}
+header .primary_nav .do_logo {
+  line-height: 80px;
+}
+header .do_menu li {
+  line-height: 80px;
+}
+header .do_menu a {
+  color: #031c4d;
+  text-decoration: none;
+}
+
+/* FINE HEADER */
