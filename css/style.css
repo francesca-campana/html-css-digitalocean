@@ -1,40 +1,60 @@
 /* Generali */
 body {
-  background-color: red;
+  font-family: 'Roboto', sans-serif;
 }
-img {
+
+/* img {
   width: 100%;
   height: auto;
-  display: block;
-}
+} */
 
 .do_list_no_margin {
   margin: 0;
+}
+.do_primary {
+  color: white;
+}
+.do_secondary {
+  color: #031c4d;
+  background: lightgray;
+}
+.do_third {
+  color: #031c4d;
+  background: white;
 }
 
 /* HEADER */
 header .primary_nav {
   background-color: white;
+  line-height: 70px;
 
 }
 .do_logo img{
-  line-height: 80px;
+  line-height: 70px;
+  max-width: 165px;
 }
+
 header .do_menu li {
-  line-height: 80px;
+  /* line-height: 80px; */
 }
 header .do_menu a {
   color: #031c4d;
   text-decoration: none;
 }
+.signup_menu {
+  border: 1px solid #2484fd;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
 /* Burger toggle */
 header .do_burger_menu {
-  line-height: 80px;
+  line-height: 70px;
 }
 header .do_burger_menu i {
   font-size: 20px;
   margin: 0 10px;
   color: #031c4d;
+  line-height: 80px;
 }
 
 
@@ -48,7 +68,61 @@ main .jumbotron {
   background-repeat: no-repeat;
   height: 500px;
 }
+
 /* Teaser */
-/* Teaser */
-/* Jumbotron */
+
+/* Fine Teaser */
+.teaser span {
+  color: lightgray;
+  font-size: 24px;
+}
+/* Form */
+/* intestation */
+.intestation h3 {
+  font-size: 30px;
+  color: #031c4d;
+}
+.intestation .do_subtitle {
+  color: #1470f9;
+}
+/* fine intestation */
+.do_form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn_create:hover {
+  background-color: white;
+  color: #1470f9;
+}
+.btn_create {
+  width: 100%;
+    background-color: #1470f9;
+    color: white;
+    margin-bottom: 10px;
+}
+.btn_signup a:hover {
+  text-decoration: none;
+}
+.btn_signup {
+  width: 100%;
+  background-color: white;
+  color: gray;
+  box-shadow: 1px 1px 2px 0px #888888;
+  padding: 6px 0;
+  font-weight: bold;
+}
+.btn_signup img{
+  width: 15px;
+}
+.terms_service a,
+.terms_service p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Fine Form */
+/* Fine Jumbotron */
 /* FINE MAIN */

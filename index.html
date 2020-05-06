@@ -16,7 +16,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-sm-6 col-lg-2">
-              <div class="do_logo img-responsive">
+              <div class="do_logo">
                 <img class="" src="img/logo.png" alt="logo">
               </div>
             </div>
@@ -32,11 +32,11 @@
             </div>
             <div class="col-xs-3 col-sm-3 col-lg-5 text-right">
               <nav class="visible-lg-block">
-                <ul class="list-inline do_list_no_margin do_menu">
+                <ul class="list-inline do_list_no_margin do_menu ">
                   <li><a href="#">Docs </a></li>
                   <li><a href="#">Support </a></li>
                   <li><a href="#">Login </a></li>
-                  <li><a href="#">Sign Up</a></li>
+                  <li><a class="signup_menu" href="#">Sign Up</a></li>
                 </ul>
               </nav>
             </div>
@@ -53,24 +53,47 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-7 col-md-7">
-              <div class="teaser">
-
+              <div class="teaser do_primary">
+                <h1>The simplest cloud platform for developers & teams</h1>
+                <span>Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, whether you're running one virtual machine or ten thousand</span>
               </div>
             </div>
+
             <div class="col-xs-12 col-md-5 col-md-5">
               <div class="do_form">
+                <div class="intestation text-center">
 
+                  <h3>Deploy your app in seconds.</h3>
+                  <h3 class="do_subtitle">Get started now.</h3>
+                </div>
+
+                <form>
+
+                  <div class="form-group">
+                    <label for="" class="sr-only">Email</label>
+                    <input type="password" class="form-control" placeholder="Email">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="" class="sr-only">Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+
+                </form>
+                <button type="send" class="btn btn-default btn_create">Create your account</button>
+                <!-- <button type="send" class="btn btn-default btn_signup">Create your account</button> -->
+                <div class="btn_signup text-center">
+                  <img class=""src="img/google-icon.png" alt="google icon">
+                  <a class="" href="#">Sign up with google</a>
+                </div>
+                <div class="terms_service">
+                  <p>By signing up you agree to the <a href="#"> Terms of Service.</a></p>
+                </div>
               </div>
-
             </div>
-
           </div>
-
-
         </div>
-
       </section>
-
     </main>
     <footer></footer>
 
