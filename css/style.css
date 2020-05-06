@@ -8,7 +8,7 @@ img {
   display: block;
 }
 
-.ms_list_no_margin {
+.do_list_no_margin {
   margin: 0;
 }
 
@@ -27,5 +27,28 @@ header .do_menu a {
   color: #031c4d;
   text-decoration: none;
 }
+/* Burger toggle */
+header .do_burger_menu {
+  line-height: 80px;
+}
+header .do_burger_menu i {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #031c4d;
+}
+
 
 /* FINE HEADER */
+
+/* MAIN */
+/* Jumbotron */
+main .jumbotron {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+/* Teaser */
+/* Teaser */
+/* Jumbotron */
+/* FINE MAIN */
