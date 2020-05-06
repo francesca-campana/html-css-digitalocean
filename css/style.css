@@ -17,7 +17,7 @@ header .primary_nav {
   background-color: white;
 
 }
-header .primary_nav .do_logo {
+.do_logo img{
   line-height: 80px;
 }
 header .do_menu li {
