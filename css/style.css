@@ -14,16 +14,27 @@ section {
   color: white;
 }
 .do_secondary {
-  color: #031c4d;
+  color: #031c4e;
   background: #f3f5f9;
 }
 .do_third {
-  color: #031c4d;
+  color: #031c4e;
   background: white;
 }
 .do_wrap_65 {
-  width: 65%;
+  width: 60%;
   margin: 0 auto;
+}
+.intro {
+  padding-bottom: 44px;
+}
+.intro h2 {
+  font-size: 38px;
+
+}
+.intro p {
+  font-size: 20px;
+  color: #6f7b97;
 }
 
 /* HEADER */
@@ -142,9 +153,9 @@ header .do_burger_menu i {
 }
 /* Fine Media Query */
 /* Customer */
-.do_wrap_65 h4 {
+.customer_title {
   color: #6f7b97;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .customer-brand {
   line-height: 100px;
@@ -153,23 +164,47 @@ header .do_burger_menu i {
 .customer-brand img{
   width: 100%;
 }
-@media screen and (min-width: 480px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .customer-brand {
     max-width: 55%;
   }
 }
 
 /* Fine Customer */
-/* Deploy */
-.do_wrap_50 {
-  width: 60%;
-  margin: 0 auto;
+/* Know How */
+
+.do_menu_knowhow {
+  margin-bottom: 30px;
 }
-.do_menu_deploy li {
+.do_menu_knowhow li {
   padding: 10px 10px;
   border-left: 1px solid gray;
-
+}
+.article {
+  margin-bottom: 30px;
+  color: #031c4d;
 }
 
-/* Fine Deploy */
+@media screen and (max-width: 768px) {
+  .do_wrap_65 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Fine Know How */
+/* Workflow */
+.do_carousel img {
+  max-width: 50%;
+  padding: 0 20px;
+}
+.do_carousel i {
+  font-size: 35px;
+}
+@media screen and (max-width: 768px) {
+  .do_carousel i {
+    display: none;
+  }
+}
+/* Fine Workflow */
 /* FINE MAIN */
