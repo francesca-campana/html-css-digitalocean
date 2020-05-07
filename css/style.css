@@ -1,4 +1,4 @@
-/* Generali */
+/* General */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -6,7 +6,7 @@ body {
 section {
   padding: 40px 0;
 }
-
+/* Elements */
 .do_list_no_margin {
   margin: 0;
 }
@@ -25,18 +25,30 @@ section {
   width: 60%;
   margin: 0 auto;
 }
+/* intro */
 .intro {
   padding-bottom: 44px;
 }
 .intro h2 {
-  font-size: 38px;
+  font-size: 34px;
 
 }
 .intro p {
   font-size: 20px;
   color: #6f7b97;
 }
+/* fine intro */
+/* article */
+.article {
+  margin-bottom: 30px;
+  color: #031c4d;
+}
+.article p {
+  color: #6f7b97;
+}
+/* fine article */
 
+/* Components */
 /* HEADER */
 header .primary_nav {
   background-color: white;
@@ -172,17 +184,16 @@ header .do_burger_menu i {
 
 /* Fine Customer */
 /* Know How */
-
+.ww-coverage h2 {
+  color: white;
+  text-align: center;
+}
 .do_menu_knowhow {
   margin-bottom: 30px;
 }
 .do_menu_knowhow li {
   padding: 10px 10px;
   border-left: 1px solid gray;
-}
-.article {
-  margin-bottom: 30px;
-  color: #031c4d;
 }
 
 @media screen and (max-width: 768px) {
@@ -195,7 +206,7 @@ header .do_burger_menu i {
 /* Fine Know How */
 /* Workflow */
 .do_carousel img {
-  max-width: 50%;
+  max-width: 80%;
   padding: 0 20px;
 }
 .do_carousel i {
@@ -207,4 +218,26 @@ header .do_burger_menu i {
   }
 }
 /* Fine Workflow */
+/* WW Coverage */
+.ww-coverage {
+  background-image: linear-gradient( 180deg, #0047c5, #00229d, #00229d);
+}
+.do_table {
+  margin: 0 auto;
+  color: white;
+
+}
+.do_table ul {
+  border-bottom: 1px solid white;
+
+}
+/* .do_table li {
+  margin: 10px 40px;
+} */
+@media screen and (min-width: 768px) {
+  .do_table li {
+    margin: 10px 20px;
+
+}
+/* Fine WW Coverage */
 /* FINE MAIN */
