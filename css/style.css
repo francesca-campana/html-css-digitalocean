@@ -186,7 +186,7 @@ header .do_burger_menu i {
 }
 
 @media screen and (max-width: 768px) {
-  .do_wrap_65 {
+  .do_knowhow > .do_wrap_65 {
     width: 100%;
     margin: 0 auto;
   }
