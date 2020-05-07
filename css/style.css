@@ -3,10 +3,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* img {
-  width: 100%;
-  height: auto;
-} */
+section {
+  padding: 40px 0;
+}
 
 .do_list_no_margin {
   margin: 0;
@@ -16,11 +15,15 @@ body {
 }
 .do_secondary {
   color: #031c4d;
-  background: lightgray;
+  background: #f3f5f9;
 }
 .do_third {
   color: #031c4d;
   background: white;
+}
+.do_wrap_65 {
+  width: 65%;
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -62,30 +65,34 @@ header .do_burger_menu i {
 
 /* MAIN */
 /* Jumbotron */
-main .jumbotron {
+.do_jumbotron {
   background-image: url(../img/bg-home-1-d54581d7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+
 }
 
 /* Teaser */
-
-/* Fine Teaser */
 .teaser span {
   color: lightgray;
   font-size: 24px;
 }
+/* Fine Teaser */
+
 /* Form */
 /* intestation */
+
 .intestation h3 {
   font-size: 30px;
   color: #031c4d;
 }
+
 .intestation .do_subtitle {
   color: #1470f9;
 }
+
 /* fine intestation */
+
 .do_form {
   background: white;
   padding: 20px;
@@ -112,9 +119,10 @@ main .jumbotron {
   padding: 6px 0;
   font-weight: bold;
 }
-.btn_signup img{
+.btn_signup img {
   width: 15px;
 }
+
 .terms_service a,
 .terms_service p {
   font-size: 12px;
@@ -125,4 +133,35 @@ main .jumbotron {
 
 /* Fine Form */
 /* Fine Jumbotron */
+
+/* Media Query */
+@media screen and (max-width: 991px) {
+  .do_form {
+    margin-top: 20px;
+ }
+}
+/* Fine Media Query */
+/* Customer */
+.do_wrap_65 h4 {
+  color: #6f7b97;
+  text-transform: uppercase;
+}
+.customer-brand {
+}
+.customer-brand img{
+  width: 100%;
+}
+
+/* Fine Customer */
+/* Deploy */
+.do_wrap_50 {
+  width: 60%;
+  margin: 0 auto;
+}
+.do_menu_deploy li {
+  padding: 10px 10px;
+  border-left: 1px solid gray;
+
+}
+/* Fine Deploy */
 /* FINE MAIN */
