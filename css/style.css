@@ -147,9 +147,16 @@ header .do_burger_menu i {
   text-transform: uppercase;
 }
 .customer-brand {
+  line-height: 100px;
+  display: inline-block;
 }
 .customer-brand img{
   width: 100%;
+}
+@media screen and (min-width: 480px) and (max-width: 991px) {
+  .customer-brand {
+    max-width: 55%;
+  }
 }
 
 /* Fine Customer */
@@ -163,5 +170,6 @@ header .do_burger_menu i {
   border-left: 1px solid gray;
 
 }
+
 /* Fine Deploy */
 /* FINE MAIN */
