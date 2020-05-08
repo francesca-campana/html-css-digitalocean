@@ -227,21 +227,19 @@ header .do_burger_menu i {
   background-image: linear-gradient( 180deg, #0047c5, #00229d, #00229d);
 }
 .do_table {
-  margin: 0 auto;
+
   color: white;
 }
-.do_table ul {
+.do_table li {
   border-bottom: 1px solid white;
 }
-/* .do_table li {
-  margin: 10px 40px;
-} */
-
-/* Media Query */
-@media screen and (min-width: 768px) {
-  .do_table li {
-    margin: 10px 20px;
-
+.no_grid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.no_grid_left {
+  padding-right: 0;
+  padding-left: 15px;
 }
 /* Fine Media Query */
 /* Fine WW Coverage */
