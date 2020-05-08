@@ -197,7 +197,7 @@ header .do_burger_menu i {
 }
 /* Media Query */
 @media screen and (max-width: 768px) {
-  .do_knowhow > .do_wrap_65 {
+  .knowhow > .do_wrap_65 {
     width: 100%;
     margin: 0 auto;
   }
@@ -227,11 +227,14 @@ header .do_burger_menu i {
   background-image: linear-gradient( 180deg, #0047c5, #00229d, #00229d);
 }
 .do_table {
-
   color: white;
 }
 .do_table li {
   border-bottom: 1px solid white;
+  padding: 20px 0;
+}
+.do_table li:last-child {
+  border-bottom: 0;
 }
 .no_grid {
   padding-right: 0;
