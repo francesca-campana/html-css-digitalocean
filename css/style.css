@@ -184,10 +184,7 @@ header .do_burger_menu i {
 /* Fine Sponsor */
 
 /* Know How */
-.ww-coverage h2 {
-  color: white;
-  text-align: center;
-}
+
 .do_menu_knowhow {
   margin-bottom: 30px;
 }
@@ -223,6 +220,10 @@ header .do_burger_menu i {
 /* Fine Workflow */
 
 /* WW Coverage */
+.ww-coverage h2 {
+  color: white;
+  text-align: center;
+}
 .ww-coverage {
   background-image: linear-gradient( 180deg, #0047c5, #00229d, #00229d);
 }
@@ -246,4 +247,49 @@ header .do_burger_menu i {
 }
 /* Fine Media Query */
 /* Fine WW Coverage */
+
+/* Costumer Satisfaction */
+
+.slider_main {
+  width: 70%;
+  margin: 0 auto;
+}
+.do_carousel_due {
+  position:relative;
+
+}
+.do_slide {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+}
+.do_carousel_due .do_arrow {
+  top: 50%;
+  position: absolute;
+  transform: rotateY(-50%);
+  font-size: 40px;
+}
+.do_arrow.arrow_left {
+  left: 0;
+}
+.do_arrow.arrow_right {
+  right:  0;
+}
+
+.slider_footer {
+  margin-top: 40px;
+  text-align: center;
+}
+.slider_footer li {
+  display:inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 50%;
+}
+.slider_footer li.active {
+  background-color: blue;
+}
+/* Fine Costumer Satisfaction */
 /* FINE MAIN */
