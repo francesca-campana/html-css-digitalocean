@@ -250,20 +250,28 @@ header .do_burger_menu i {
 
 /* Costumer Satisfaction */
 
-.slider_main {
-  width: 70%;
-  margin: 0 auto;
+.slider {
+  width: 60%;
+  margin: 30px auto;
 }
-.do_carousel_due {
+.slider_main {
   position:relative;
 
 }
 .do_slide {
-  background-color: white;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
+
 }
-.do_carousel_due .do_arrow {
+.do_slide_content {
+  background-color: white;
+  padding: 50px 1px;
+}
+.do_slide img {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.slider_main .do_arrow {
   top: 50%;
   position: absolute;
   transform: rotateY(-50%);
@@ -284,12 +292,25 @@ header .do_burger_menu i {
   display:inline-block;
   width: 10px;
   height: 10px;
-  border: 1px solid blue;
+  border: 1px solid #006aff;
   background-color: white;
   border-radius: 50%;
 }
 .slider_footer li.active {
-  background-color: blue;
+  background-color: #006aff;
+}
+.cit_do p {
+  font-size: 20px;
+  color: #6f7b97;
+}
+.do_slide_content > h5 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.do_slide a {
+  color: #006aff;
 }
 /* Fine Costumer Satisfaction */
 /* FINE MAIN */
