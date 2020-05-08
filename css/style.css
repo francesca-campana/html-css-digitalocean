@@ -3,8 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-section {
-  padding: 40px 0;
+section.pd{
+  padding: 80px 0;
 }
 li {
   list-style: none;
@@ -170,6 +170,9 @@ header .do_burger_menu i {
 /* Fine Jumbotron */
 
 /* Sponsor */
+.sponsor {
+  padding: 40px 0;
+}
 .sponsor_title {
   color: #6f7b97;
   /* text-transform: uppercase; */
@@ -312,7 +315,7 @@ header .do_burger_menu i {
 /* FINE MAIN */
 /* FOOTER */
 .do_footer {
-  padding: 40px 0;
+  padding: 60px 0;
   background-color: #031c4d;
 }
 .down_logo {
@@ -322,15 +325,34 @@ header .do_burger_menu i {
   margin-bottom: 0;
   color: #7a859d;
 }
-.footer_list a:first-of-type {
-  color: white;
+.social {
+      margin-top: 10px;
+}
+.social a {
+  color: #7a859d;
+  margin-right: 5px;
+
+  font-size: 18px;
 }
 .footer_list a {
-  font-size: 16px;
-  color: #7a859d;
+  color: white;
+}
+.footer_list {
+  padding: 20px 0;
 }
 .footer_list li:first-child {
   font-weight: bold;
   color: white;
-  font-size: 18px;
+  font-size: 19px;
+}
+.footer_list > ul {
+  padding-inline-start:0;
+}
+.footer_list > ul a {
+  font-size: 16px;
+  color: #7a859d;
+  margin-top: 10px;
+}
+.footer_list > ul li {
+  margin-top: 15px;
 }
