@@ -6,6 +6,9 @@ body {
 section {
   padding: 40px 0;
 }
+li {
+  list-style: none;
+}
 /* Elements */
 .do_list_no_margin {
   margin: 0;
@@ -20,6 +23,10 @@ section {
 .do_third {
   color: #031c4e;
   background: white;
+}
+.bg_blue {
+  background-image: linear-gradient( 180deg, #0047c5, #00229d, #00229d);
+  color: white;
 }
 .do_wrap_65 {
   width: 60%;
@@ -126,9 +133,9 @@ header .do_burger_menu i {
 }
 .btn_create {
   width: 100%;
-    background-color: #1470f9;
-    color: white;
-    margin-bottom: 10px;
+  background-color: #1470f9;
+  color: white;
+  margin-bottom: 10px;
 }
 .btn_signup a:hover {
   text-decoration: none;
@@ -203,33 +210,9 @@ header .do_burger_menu i {
 /* Fine Know How */
 
 /* Workflow */
-.do_carousel img {
-  max-width: 80%;
-  padding: 0 20px;
-}
-.do_carousel i {
-  font-size: 35px;
-}
-/* Media Query */
-@media screen and (max-width: 768px) {
-  .do_carousel i {
-    display: none;
-  }
-}
-/* Fine Media Query */
 /* Fine Workflow */
 
 /* WW Coverage */
-.ww-coverage h2 {
-  color: white;
-  text-align: center;
-}
-.ww-coverage {
-  background-image: linear-gradient( 180deg, #0047c5, #00229d, #00229d);
-}
-.do_table {
-  color: white;
-}
 .do_table li {
   border-bottom: 1px solid white;
   padding: 20px 0;
@@ -237,19 +220,21 @@ header .do_burger_menu i {
 .do_table li:last-child {
   border-bottom: 0;
 }
-.no_grid {
+.no_gutter {
   padding-right: 0;
   padding-left: 0;
 }
-.no_grid_left {
+.no_gutter_left {
   padding-right: 0;
   padding-left: 15px;
 }
-/* Fine Media Query */
+.no_gutter_right {
+  padding-right: 15px;
+  padding-left: 0;
+}
 /* Fine WW Coverage */
 
 /* Costumer Satisfaction */
-
 .slider {
   width: 60%;
   margin: 30px auto;
@@ -313,4 +298,39 @@ header .do_burger_menu i {
   color: #006aff;
 }
 /* Fine Costumer Satisfaction */
+/* Test It */
+.create h2 {
+  font-size: 34px;
+}
+.btn_create_do {
+  color: #006aff;
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+/* Fine Test It */
 /* FINE MAIN */
+/* FOOTER */
+.do_footer {
+  padding: 40px 0;
+  background-color: #031c4d;
+}
+.down_logo {
+  margin-top: 10px;
+}
+.down_logo p {
+  margin-bottom: 0;
+  color: #7a859d;
+}
+.footer_list a:first-of-type {
+  color: white;
+}
+.footer_list a {
+  font-size: 16px;
+  color: #7a859d;
+}
+.footer_list li:first-child {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
